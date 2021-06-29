@@ -1,3 +1,5 @@
+# Ctr + / - aby zrobić komentarz w Visual Studio Code
+
 $produkt1 = "truskawki"
 $produkt2 = "pomidory"
 $produkt3 = "cebula"
@@ -7,7 +9,6 @@ $produkt1
 $produkt2
 $produkt3
 $produkt4
-# Ctr + /
 
 Write-Host ""
 Write-Output "Tutaj mamy tablice:"
