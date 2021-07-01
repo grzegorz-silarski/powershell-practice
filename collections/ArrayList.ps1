@@ -42,7 +42,6 @@ $dynamicznaTablica4
 Write-Host
 
 #Opcja zapisu 5
-
 $dynamicznaTablica5 = [System.Collections.ArrayList](1..5)
 $dynamicznaTablica5.Add(6) | Out-Null
 
@@ -51,7 +50,6 @@ $dynamicznaTablica5
 Write-Host
 
 #Opcja zapisu 6
-
 $dynamicznaTablica6 = [System.Collections.ArrayList]("pomidory", "truskawki", "seler")
 $dynamicznaTablica6.Add("por") | Out-Null
 
@@ -60,7 +58,6 @@ $dynamicznaTablica6
 Write-Host
 
 #Usuwanie z tablicy
-
 $dynamicznaTablica7 = [System.Collections.ArrayList]@("pomidory", "truskawki", "seler")
 $dynamicznaTablica7.RemoveAt(1) #Usuwam truskawki bo mają index 1
 $dynamicznaTablica7.Remove("seler") #Usuwam seler bo to ten sam obiekt co przekazałem w argumencie
