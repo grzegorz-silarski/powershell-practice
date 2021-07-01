@@ -1,5 +1,8 @@
+#Po co wpisywać pojedynczo elementy do zmiennych. Lepiej wpisać je do jednej zmiennej w formie tablicy.
+
 # Ctr + / - aby zrobić komentarz w Visual Studio Code
 
+#Pojedyncze zmienne
 $produkt1 = "truskawki"
 $produkt2 = "pomidory"
 $produkt3 = "cebula"
@@ -31,7 +34,7 @@ $produkty = "truskawki", "pomidory", "cebula", 1
 $produkty2 = "wisnie", "czeresnie", "cebula", 2
 
 $wiecejProduktow = $produkty + $produkty2
-$znaki = "abcdefgh" + "ddd"
+$znaki = "abcdefgh" + "ddd" #Łączenie napisów operatorem konkatenacji +
 
 $produkt1 = "truskawki"
 $produkt1.GetType()
@@ -39,17 +42,9 @@ $produkt1.GetType()
 $array1 = 1, 2, 3, 4
 $array2 = (1, 2, 3, 4)
 $array3 = @(1, 2, 3, 4)
-$array4 = @()
+$array4 = 1..4
 
-#Hashtablice - HashTable
-$produktyZcenami = @{}
-
-$produktyZcenami.marchew = 1.50
-$produktyZcenami["cebula"] = 1.70
-$produktyZcenami.Add("wisnie", 6)
-
-$produktyZcenami.wisnie
-$produktyZcenami["cebula"]
-
-Write-Host "Cena wiśni: $($produktyZcenami.wisnie)"
-Write-Host "Cena cebuli: $($produktyZcenami['cebula'])"
+$array1
+$array2
+$array3
+$array4
