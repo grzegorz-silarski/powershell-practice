@@ -11,4 +11,4 @@ function Get-AzDoProjectsList([string]$Pat) {
     Invoke-RestMethod -Uri $uri -ContentType "application/json" -Headers $headers -Method Get
 }
 
-Get-AzDoProjectsList -Pat $Pat
+(Get-AzDoProjectsList -Pat $Pat).value
